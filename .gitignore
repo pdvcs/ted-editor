@@ -1,0 +1,22 @@
+# Go build outputs
+/ted-part1/ted-part1
+/ted-part2/ted-part2
+/ted-part3/ted-part3
+/ted-part4/ted-part4
+*.test
+*.out
+
+# Go coverage and profiling artifacts
+coverage.out
+coverage.txt
+*.prof
+*.pprof
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
