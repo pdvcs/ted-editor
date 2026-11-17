@@ -1,14 +1,15 @@
 # Building `ted`, a tiny text editor in Go
 
-This repository is a four-part tour of terminal text editors. Each directory is
-a complete, runnable snapshot of the editor at the end of that chapter.
+This repository is a four-part post learning about terminal text editors.
+Each directory is a complete, runnable snapshot of the editor at the end
+of each part.
 
-| Part | What changes |
-| --- | --- |
-| [`ted-part1`](./ted-part1) | Raw terminal input, an array-of-lines buffer, opening, editing, and saving |
-| [`ted-part2`](./ted-part2) | Snapshot-based undo and redo |
-| [`ted-part3`](./ted-part3) | A piece table and cheap structural history |
-| [`ted-part4`](./ted-part4) | Chroma syntax highlighting and light/dark themes |
+| Post | Part | What changes |
+| --- | --- | --- |
+| [Part 1 - The Loop](https://pdutta.net/posts/ted-part-1-the-loop/) | [`ted-part1`](./ted-part1) | Raw terminal input, an array-of-lines buffer, opening, editing, and saving |
+| [Part 2 - The Simplest Undo](https://pdutta.net/posts/ted-part-2-simplest-undo/) | [`ted-part2`](./ted-part2) | Snapshot-based undo and redo |
+|  | [`ted-part3`](./ted-part3) | A piece table and cheap structural history |
+|  | [`ted-part4`](./ted-part4) | Chroma syntax highlighting and light/dark themes |
 
 Compare adjacent `main.go` files with `diff -u` to see what each chapter adds
 to the editor loop and drawing code.
